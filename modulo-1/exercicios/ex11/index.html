@@ -1,19 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Imagens Dinâmicas!</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <h1>Estamos adpatando o tamanho da Imagem dentro desse site!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestiae quasi odit quis? Voluptatem, suscipit aut. Nesciunt dolorum nisi ex commodi deleniti eos architecto. Adipisci quas voluptates dolor similique quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, voluptates? Dolor molestias corporis magnam, quia veritatis quibusdam explicabo iusto ea? Exercitationem hic praesentium error obcaecati aspernatur quaerat harum aliquid delectus.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestiae
+      quasi odit quis? Voluptatem, suscipit aut. Nesciunt dolorum nisi ex
+      commodi deleniti eos architecto. Adipisci quas voluptates dolor similique
+      quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Repellendus, voluptates? Dolor molestias corporis magnam, quia veritatis
+      quibusdam explicabo iusto ea? Exercitationem hic praesentium error
+      obcaecati aspernatur quaerat harum aliquid delectus.
+    </p>
 
     <picture>
-        <source media="(max-width: 750px)" srcset="imagens/imagem300px.png" type="image/png">
-        <source media="(max-width:1000px)" srcset="imagens/imagem700px.png" type="image/png">
-        <img src="imagens/imagem1000px.png" alt="Imagem Grande">        
+      <source
+        media="(max-width: 750px)"
+        srcset="imagens/imagem300px.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width:1000px)"
+        srcset="imagens/imagem700px.png"
+        type="image/png"
+      />
+      <img src="imagens/imagem1000px.png" alt="Imagem Grande" />
     </picture>
 
     <h1>Reproduzindo Áudio</h1>
@@ -21,12 +37,16 @@
     <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
     <!-- Comtabilidade MP3 WAV OGG-->
 
-    <p>Outra maneira para representar a reprodução de áudio, porém para precaver compatibilidade com vários navegadores diferentes.</p>
-    <audio preload="metadata" autoplay controls> 
-        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
-        <source src="midia/guanacast-33.ogg" type="audio/opp">
-        <source src="midia/guanacast-33.wav" type="audio/wav">
-        <p>Infelizmente o seu navegador não consegue reproduzir áudio.</p><a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a>
+    <p>
+      Outra maneira para representar a reprodução de áudio, porém para precaver
+      compatibilidade com vários navegadores diferentes.
+    </p>
+    <audio preload="metadata" autoplay controls>
+      <source src="midia/guanacast-33.mp3" type="audio/mpeg" />
+      <source src="midia/guanacast-33.ogg" type="audio/opp" />
+      <source src="midia/guanacast-33.wav" type="audio/wav" />
+      <p>Infelizmente o seu navegador não consegue reproduzir áudio.</p>
+      <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a>
     </audio>
-</body>
+  </body>
 </html>
