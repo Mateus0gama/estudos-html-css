@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, brown, rgba(0, 0, 0, 0.789));
+}
+
+header {
+  background-color: aliceblue;
+  min-width: 150px;
+}
+
+header img {
+  width: 100%;
+  display: block;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  min-width: 300px;
+  max-width: 1000px;
+}
+
+main li {
+  font-size: 2em;
+}

@@ -1,0 +1,16 @@
+Projeto de Landing Page - A Casa do Dragão (HTML/CSS)
+
+1. Cabeçalho e Navegação:
+No topo, o logo da série e um menu de navegação simples (Início, Personagens, Trailers, Sobre, Assista Agora). Ótimo para praticar o posicionamento de elementos e listas (<ul>, <li>).
+
+2. Seção Hero Impactante:
+Uma grande imagem de fundo com um título forte ("A Casa do Dragão") e um botão de chamada para ação ("ASSISTA AO TRAILER"). Ideal para trabalhar com background-image, tipografia e botões estilizados em CSS.
+
+3. Grades de Personagens e Dragões:
+As seções "Conheça os Personagens" e "Os Dragões" utilizam um layout em grade, perfeito para praticar o uso do CSS Grid ou Flexbox. Você deve criar "cards" individuais para cada personagem (Rhaenyra Targaryen, Daemon Targaryen, Alicent Hightower, King Viserys I) e dragões (Syrax, Caraxes, Meleys), com foto e texto descritivo.
+
+4. Seção de História e Vídeo:
+Mais abaixo, um bloco para texto narrativo ("A História: Fogo & Sangue") e uma miniatura que simula um reprodutor de vídeo para o trailer oficial. Isso ajuda a praticar a formatação de blocos de texto e a inserção de elementos de mídia.
+
+5. Rodapé:
+Inclui links de rodapé padrão (Termos de Uso, Privacidade, Ajuda), ícones de redes sociais e o logo da Max. Ótimo para consolidar habilidades de layout e links (<a>).
