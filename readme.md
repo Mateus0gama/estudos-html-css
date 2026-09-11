@@ -30,6 +30,6 @@ Os exercícios e testes deste repositório são executados sob o seguinte ambien
 - **Sistema Operacional:** Linux Mint.
 - **Paradigma:** Construção estática com foco em semântica W3C.
 
----
+--- <a >
 
 > _"A repetição é a mãe da retenção."_ — Construindo uma base sólida para o desenvolvimento web.
