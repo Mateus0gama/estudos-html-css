@@ -30,6 +30,6 @@ Os exercícios e testes deste repositório são executados sob o seguinte ambien
 - **Sistema Operacional:** Linux Mint.
 - **Paradigma:** Construção estática com foco em semântica W3C.
 
---- <a >
+--- <a href='https://mateus0gama.github.io/estudos-html-css/modulo-2/desafio/d01/android.html'>Executar o Projeto Android!</a>
 
 > _"A repetição é a mãe da retenção."_ — Construindo uma base sólida para o desenvolvimento web.
