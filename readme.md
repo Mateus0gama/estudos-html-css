@@ -32,6 +32,4 @@ Os exercícios e testes deste repositório são executados sob o seguinte ambien
 
 ---
 
-<a href='https://mateus0gama.github.io/estudos-html-css/modulo-2/desafios/d01/android.html'>Executar o Projeto Android!</a>
-
 > _"A repetição é a mãe da retenção."_ — Construindo uma base sólida para o desenvolvimento web.
