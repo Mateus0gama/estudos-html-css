@@ -10,14 +10,13 @@ body {
 }
 
 header {
-  min-width: 150px;
   background-image: url("/modulo-2/desafios/d02/imagens/home.projeto-casa-do-dragao.jpeg");
-  background-size: 1080px 540px;
+  background-size: contain;
   background-repeat: no-repeat;
-  max-width: 1080px;
-  height: 540px;
+  height: 98vh;
   padding: 0px;
   margin: 0px;
+  color: white;
 }
 
 header img {
