@@ -15,6 +15,12 @@ Grandes Telas: à cima 1200px
   }
   main {
     border: 2px solid black;
+    width: 90%;
+  }
+
+  main::after {
+    content: "Essa impressao foi feita através do site www.matuesgama.com.br";
+    text-decoration: underline;
   }
   main h1 {
     text-shadow: none;
