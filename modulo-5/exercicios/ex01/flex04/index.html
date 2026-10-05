@@ -7,8 +7,13 @@
     <style>
       div.conteiner {
         background-color: lightsalmon;
+        height: 300px;
         display: flex;
-        flex-direction: row;
+        flex-flow: row wrap;
+        /* Organização de como fica disposto os itens no conteiner no MAIN-AXIS*/
+        justify-content: space-around;
+        /* Como o item está disposto no CROS-AXIS*/
+        align-items: center;
       }
 
       div.item {
