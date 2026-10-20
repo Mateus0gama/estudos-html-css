@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      div.container {
+        /*Definimos a configuração de Grid Layout*/
+        display: grid;
+        /*Definimos a quantidade de colunas do Grid Layout e o seu tamanho*/
+        grid-template-columns: auto auto auto;
+        /*Definimos a cquantidade de linhas do Grid Layout e o seu tamanho*/
+        grid-template-rows: 100px 100px 100px;
+
+        /*Servem para criar células implicitos sem quebrar o estilo. (Valores definidos para novos itens)*/
+        grid-auto-rows: 100px;
+        grid-auto-columns: 100px;
+
+        /*Shorthands para declaração de propriedades de Grid Layout
+        
+        grid-template: Rows - Columns
+        grid-itens: aling-iten justify-itens
+        grid-content: aling-contemt justify-content
+        
+        */
+        grid-template: 100px 100px 100px / auto auto auto;
+        place-items: stretch stretch;
+        place-content: stretch stretch;
+      }
+
+      .item {
+        border: 2px dashed black;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+      </div>
+    </main>
+  </body>
+</html>
