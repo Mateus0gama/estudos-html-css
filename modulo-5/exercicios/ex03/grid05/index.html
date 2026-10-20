@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout - Itens - Area Itens</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+
+      .conteiner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        border: 2px dashed red;
+      }
+
+      .caixa1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        border: 2px dashed blue;
+      }
+
+      .caixa2 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border: 2px dashed black;
+      }
+
+      .caixa3 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        border: 2px dashed green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="caixa1">A</div>
+      <div class="caixa2">B</div>
+      <div class="caixa3">C</div>
+    </div>
+  </body>
+</html>
